@@ -1,0 +1,9 @@
+a=[1,4,6,9,0]
+b=a[:]
+print(a)
+print(b)
+print(id(a))
+print(id(b))
+b[3]=-2
+print(b)
+print(a)
